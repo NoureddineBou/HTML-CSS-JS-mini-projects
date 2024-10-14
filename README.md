@@ -5,6 +5,7 @@ This repository contains a collection of mini projects built with HTML, CSS, and
 ## Projects
 
 - **Project 1 - Rsponsive Card Slider**:
+- 
   A sleek slider that displays cards in a responsive layout, enabling users to browse content easily with smooth transitions.
   
 - **Project 2 - Lux**:
