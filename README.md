@@ -42,7 +42,7 @@ This repository contains a collection of mini projects built with HTML, CSS, and
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1;">A stylish landing page for the fictional shoe brand Joulx. The design includes a gradient background, a modern navigation bar, and a responsive layout to engage users effectively. It features sections for home, men's, women's, and kids' shoes, along with buttons for account creation and product purchases.</p>
-  <img src="Project 5 - Joulx-Shoes-Landing-Page/joulx-shoes-preview.png" alt="Joulx Shoes Landing Page Preview" width="700" style="flex: 1;">
+  <img src="Project 5 - Adidas/screenshot.png" alt="Joulx Shoes Landing Page Preview" width="700" style="flex: 1;">
 </div>
 
 ---
