@@ -27,9 +27,9 @@ Lux is a responsive web template designed for showcasing services, portfolios, a
 ---
 
 ### Project 3 - Portfolio (CSS, HTML, and JS):  
-<div style = "display: flex">
+<div style = "display: flex; justify-content: space-between">
   This portfolio showcases my work and skills as a web developer using HTML, CSS, and JavaScript. <img src="Project 3 - Portfolio/portfolio-preview.png" alt="Portfolio Preview" width="300">
-</div>
+</div>  
 ---
 
 ### Project 4 - Product Landing Page (CSS and HTML)
