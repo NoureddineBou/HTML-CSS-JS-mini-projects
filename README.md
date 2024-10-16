@@ -14,7 +14,7 @@ This repository contains a collection of mini projects built with HTML, CSS, and
 
 - **Project 3 - Portfolio**: (CSS, HTML, and JS)  
   This portfolio showcases my work and skills as a web developer using HTML, CSS, and JavaScript.  
-  <img src="portfolio-preview.png" alt="Portfolio Preview" width="300">
+  <img src="Project 3 - Portfolio\portfolio-preview.png" alt="Portfolio Preview" width="300">
 
 - **Project 4 - Product Landing Page**: (CSS and HTML)  
   A sleek, responsive page showcasing a featured product, highlighting key features and user testimonials, with a clear call-to-action button to drive purchases or sign-ups.  
