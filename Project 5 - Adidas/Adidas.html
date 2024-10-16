@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes | Noureddine Bouderbala</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            background: linear-gradient(#111, #222);
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        body::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: red;
+            position: absolute;
+            z-index: -1;
+            clip-path: circle(40% at right 70%);
+        }
+
+        .container {
+            width: 80%;
+            height: 80%;
+            background: rgb(255, 255, 255, 0.1);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        nav .logo {
+            color: white;
+            text-decoration: none;
+            font-size: 32px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 700;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 6px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: red;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            width: 80%;
+            margin: auto;
+        }
+
+        .content .text {
+            color: white;
+            width: 40%;
+        }
+
+        .content .text h2 {
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .content .text p {
+            font-size: 18px;
+            line-height: 25px;
+            margin: 10px 0;
+            letter-spacing: 1px;
+        }
+
+        .content .image {
+            width: 40%;
+        }
+
+        .content .image img {
+            width: 400px;
+        }
+
+        @media (min-width: 950px) and (max-width: 1150px) {
+            .content .image img {
+                width: 330px;
+            }
+        }
+
+        @media (max-width: 950px) {
+            .content,
+            nav {
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .content .image,
+            .content .text {
+                width: 80%;
+            }
+
+            body::after {
+                clip-path: circle(50% at bottom);
+            }
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .buttons-container button {
+            padding: 12px 24px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .buttons-container button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .buttons-container button.create-login {
+            background-color: #3498db;
+        }
+
+        .buttons-container button.create-login:hover {
+            background-color: #2980b9;
+        }
+
+        .buttons-container button.buy {
+            background-color: #27ae60;
+        }
+
+        .buttons-container button.buy:hover {
+            background-color: #219653;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a class="logo" href="#">JOULX</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div class="text">
+                <h2>Joulx ALGERIA, <br> Running Shoes</h2>
+                <p> hado baskitat mlah chrohom 3la dmanti
+                    nta tmout w houma ma ysralhom walou
+                    sma ghir makalh tkhaf w dir 3lya wchri
+                    kayn nta3 rjal, nsa, drari chouf nta 
+                    wach ysa3dek
+                </p>
+            </div>
+            <div class="image">
+                <img src="shoes.png">
+            </div>
+        </div>
+
+        <div class="buttons-container">
+            <button class="create-login"><a href="account/login.html">Create or Login</a></button>
+            <button class="buy"><a href="product/product.html">Buy</a></button>
+        </div>
+    </div>
+</body>
+
+</html>
