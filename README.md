@@ -41,7 +41,7 @@ This repository contains a collection of mini projects built with HTML, CSS, and
 ### Project 5 - Joulx Shoes Landing Page (HTML and CSS):
 
 <div style="display: flex; align-items: center;">
-  <p style="flex: 1;">A stylish Joulx landing page with a gradient background and sections for men's, women's, and kids' shoes.</p>
+  <p style="flex: 1;">A stylish Joulx landing page with a gradient background and sections for men's, women's, and kids' shoes. </p>
   <img src="Project 5 - Adidas/screenshot.png" alt="Joulx Shoes Landing Page Preview" width="700" style="flex: 1;">
 </div>
 
