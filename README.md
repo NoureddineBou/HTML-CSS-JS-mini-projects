@@ -8,7 +8,7 @@ This repository contains a collection of mini projects built with HTML, CSS, and
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1;">A sleek slider that displays cards in a responsive layout, enabling users to browse content easily with smooth transitions.</p>
-  <img src="assets/card-slider-preview.png" alt="Responsive Card Slider Preview" width="300" style="flex: 1;">
+  <img src="Project 1 - Responsive Card Slider/card-slider-preview.png" alt="Responsive Card Slider Preview" width="300" style="flex: 1;">
 </div>
 
 ---
@@ -17,7 +17,7 @@ This repository contains a collection of mini projects built with HTML, CSS, and
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1;">Lux is a responsive web template for services and portfolios, featuring a clean design for agencies and freelancers.</p>
-  <img src="assets/lux-preview.png" alt="Lux Preview" width="300" style="flex: 1;">
+  <img src="Project 2 - Lux/lux-preview.png" alt="Lux Preview" width="300" style="flex: 1;">
 </div>
 
 ---
